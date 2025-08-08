@@ -1,7 +1,7 @@
 {
   "name": "KAVI-MD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By KAVIDU RASANGA.",
+  "description": "A WhatsApp Bot Created By KAVISHKA DILSHAN.",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name KAVI-MD",
