@@ -5,24 +5,24 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "djNgFT5D#xylo68yDRn99xiZwv8KR657WmkZc7ub0LjvXa7qi4Gw", // session id  
+SESSION_ID: process.env.SESSION_ID || "omkGBYha#H_p9I4U1kob9v-OLyZNBwQVuVHvTchtBePMDcrw3ugI", // session id  
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-MODE: process.env.MODE || "public", //public , groups , inbox
+MODE: process.env.MODE || "public", //public , groups , inbox , channel
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://raw.githubusercontent.com/Cyber-kavi/BOT-DP/refs/heads/main/cyber%20kavi.png",  // පොටෝ url
 MENU_IMG: process.env.MENU_IMG || "https://raw.githubusercontent.com/Cyber-kavi/BOT-DP/refs/heads/main/cyber%20kavi.png",  //පොටෝ url
-ALIVE_MSG: process.env.ALIVE_MSG || "*😎 Hey How are you? 👻*\n\n*👊 KAVI-MD Whatsapp Bot Alive Now..!*\n\n> *ᴘᴏᴡᴇʀᴅ ʙʏ  KAVISHKA DILSHAN : )*",
+ALIVE_MSG: process.env.ALIVE_MSG || "*😎 Hey How are you? 👻*\n\n*👊 KAVI-MD Whatsapp Bot Alive Now...!*\n\n> *ᴘᴏᴡᴇʀᴅ ʙʏ  KAVISHKA DILSHAN : )*",
 ANTI_LINK: process.env.ANTI_LINK || "false",
 ANTI_BAD: process.env.ANTI_BAD || "false",
 PREFIX: process.env.PREFIX || ".",
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false", // true හෝ false
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true", // true හෝ false
 FAKE_TYPING: process.env.FAKE_TYPING || "false",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
 AUTO_REACT: process.env.AUTO_REACT || "false",
-HEART_REACT: process.env.HEART_REACT || "false",
+HEART_REACT: process.env.HEART_REACT || "true",
 OWNER_REACT: process.env.OWNER_REACT || "true",
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94728810592", // ඔයාගෙ නම්බර් එක
 OWNER_EMOJI: process.env.OWNER_EMOJI || "☠", // ඉමෝජි
