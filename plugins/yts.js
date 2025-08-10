@@ -11,7 +11,7 @@ cmd(
     filename: __filename,
   },
   async (
-    danuwa,
+    kavimd,
     mek,
     m,
     {
@@ -44,11 +44,11 @@ Your youtube search results
 ${formattedResults}
    `;
 
-      await danuwa.sendMessage(
+      await kavimd.sendMessage(
         from,
         {
           image: {
-            url: "https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/yts.png?raw=true",
+            url: "https://raw.githubusercontent.com/Cyber-kavi/BOT-DP/refs/heads/main/ChatGPT%20Image%20Aug%2010%2C%202025%2C%2007_49_12%20PM.png",
           },
           caption,
         },
