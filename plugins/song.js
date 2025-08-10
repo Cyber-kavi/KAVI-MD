@@ -5,13 +5,14 @@ const { ytmp3 } = require("@vreden/youtube_scraper");
 cmd(
   {
     pattern: "song",
+    alias: ["song", "songsearch"],
     react: "🎶",
     desc: "Download Song",
     category: "download",
     filename: __filename,
   },
   async (
-    danuwa,
+    kavimd,
     mek,
     m,
     {
@@ -55,7 +56,7 @@ Song downloader
 🔗 *Watch Here:* ${data.url}
 `;
 
-      await danuwa.sendMessage(
+      await kavimd.sendMessage(
         from,
         { image: { url: data.thumbnail }, caption: desc },
         { quoted: mek }
@@ -74,7 +75,7 @@ Song downloader
         return reply("⏳ *Sorry, audio files longer than 30 minutes are not supported.*");
       }
 
-      await danuwa.sendMessage(
+      await kavimd.sendMessage(
         from,
         {
           audio: { url: songData.download.url },
@@ -83,7 +84,7 @@ Song downloader
         { quoted: mek }
       );
 
-      await danuwa.sendMessage(
+      await kavimd.sendMessage(
         from,
         {
           document: { url: songData.download.url },
@@ -94,7 +95,7 @@ Song downloader
         { quoted: mek }
       );
 
-      return reply("✅ Thank you");
+      return reply("✅ Thank you ");
     } catch (e) {
       console.log(e);
       reply(`❌ *Error:* ${e.message} 😞`);
