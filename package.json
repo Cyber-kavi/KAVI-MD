@@ -41,18 +41,21 @@
     "cheerio": "^1.0.0-rc.12",
     "ruhend-scraper" : "9.0.5",
     "qrcode-terminal": "^0.12.0",
-    "yt-search":"2.13.1",
+    "yt-search":"^2.13.1",
     "sequelize": "^6.37.5",
     "sqlite3": "^5.1.7",
     "vm": "^0.1.0",
-    "api-dylux":"1.8.5",
-    "@mrnima/tiktok-downloader":"1.0.0",
-    "@mrnima/facebook-downloader":"1.0.0",
-    "mrnima-moviedl":"1.0.0",
-    "denethdev-ytmp3":"1.0.3",
-    "g-i-s":"2.1.7",
+    "api-dylux": "1.8.5",
+    "@mrnima/tiktok-downloader": "^1.0.0",
+    "@xaviabot/fb-downloader": "^1.0.14",
+    "mrnima-moviedl": "^1.0.0",
+    "denethdev-ytmp3": "^1.0.3",
+    "g-i-s":  "2.1.7",
     "mongoose": "^8.9.4",
     "node-cache": "5.1.2",
-    "mime-types": "3.0.1"
+    "mime-types": "^3.0.1",
+"@vreden/youtube_scraper": "^1.2.7"
+
+    
   }
 }
