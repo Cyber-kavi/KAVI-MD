@@ -11,7 +11,7 @@ cmd(
     filename: __filename,
   },
   async (
-    danuwa,
+    kavimd,
     mek,
     m,
     {
@@ -63,18 +63,18 @@ Your fb video
 👻 *Quality*: ${qualityText}
 `;
 
-      await danuwa.sendMessage(
+      await kavimd.sendMessage(
         from,
         {
           image: {
-            url: "https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/fbdownloader.png?raw=true",
+            url: "https://raw.githubusercontent.com/Cyber-kavi/BOT-DP/refs/heads/main/ChatGPT%20Image%20Aug%2010%2C%202025%2C%2008_35_42%20PM.png",
           },
           caption: desc,
         },
         { quoted: mek }
       );
 
-      await danuwa.sendMessage(
+      await kavimd.sendMessage(
         from,
         {
           video: { url: bestQualityUrl },
@@ -83,7 +83,7 @@ Your fb video
         { quoted: mek }
       );
 
-      return reply("Thank you for using DANUWA-MD");
+      return reply("Thank you for using KAVI-MD");
     } catch (e) {
       console.error(e);
       reply(`*Error:* ${e.message || e}`);
