@@ -33,6 +33,7 @@ DELETEMSGSENDTO: process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DE
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|acfae96e8ecc372d757cd16f4c3c219bdb00b324",
 OWNER_NAME: process.env.OWNER_NAME || "Kavishka Dilshan", // නම
 FOOTER: process.env.FOOTER || "> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ KAVISHKA DILSHAN  👨‍💻*",
 MOVIE_FOOTER: process.env.MOVIE_FOOTER || "> *Movie 🍃*", //Movie footer  
